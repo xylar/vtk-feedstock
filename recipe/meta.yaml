@@ -140,6 +140,7 @@ test:
     - vtk.vtkViewsCore
     - vtk.vtkRenderingVolume
     - vtk.vtkInteractionWidgets
+    - vtk.tk.vtkTkRenderWidget  # [not win and not VTK_WITH_OSMESA]
     - vtkmodules
     - vtkmodules.vtkChartsCore
     - vtkmodules.vtkCommonCore
